@@ -1,13 +1,8 @@
 <?php
 
-use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\ProjectsController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [ProjectsController::class, 'index'])->name('projects.index');
 
-Route::get('/outra-rota', fn () => 'oi');
-
-Route::get('/welcome', WelcomeController::class);
-//Route::get('/welcome', [WelcomeController::class, 'index']);
+Route::get('/project/{project}', [ProjectsController::class, 'show'])->name('projects.show');
