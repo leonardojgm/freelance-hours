@@ -6,5 +6,4 @@
         description: {!! $project->description !!}
     </pre> --}}
     <x-projects.card :$project />
-    <livewire:proposals.create />
 </div>
