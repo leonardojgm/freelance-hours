@@ -8,6 +8,14 @@ docker run -d  --name=mailpit  --restart unless-stopped  -p 8025:8025  -p 1025:1
 
 ![image](https://github.com/user-attachments/assets/fdee5787-5524-4091-a474-f65f5c082b68)
 
+![image](https://github.com/user-attachments/assets/3f84fa82-b85c-438d-93a1-c9e858e71afb)
+
+![image](https://github.com/user-attachments/assets/1713ae33-9832-4fac-91b1-3ece9c56aba8)
+
+![image](https://github.com/user-attachments/assets/71c204eb-0883-4311-b17a-2048d5d035d3)
+
+![image](https://github.com/user-attachments/assets/79b61c9a-49af-4135-a533-c2a8a81f11cb)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
